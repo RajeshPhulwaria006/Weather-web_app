@@ -1,0 +1,20 @@
+const iconMap = {
+  "01d": "icons/clear-day.svg",
+  "01n": "icons/clear-night.svg",
+  "02d": "icons/partly-cloudy-day.svg",
+  "02n": "icons/partly-cloudy-night.svg",
+  "03d": "icons/cloudy.svg",
+  "03n": "icons/cloudy.svg",
+  "04d": "icons/overcast.svg",
+  "04n": "icons/overcast.svg",
+  "09d": "icons/showers.svg",
+  "09n": "icons/showers.svg",
+  "10d": "icons/rain-day.svg",
+  "10n": "icons/rain-night.svg",
+  "11d": "icons/thunderstorm.svg",
+  "11n": "icons/thunderstorm.svg",
+  "13d": "icons/snow.svg",
+  "13n": "icons/snow.svg",
+  "50d": "icons/mist.svg",
+  "50n": "icons/mist.svg"
+};
