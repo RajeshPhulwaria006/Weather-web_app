@@ -8,7 +8,7 @@ A fast and responsive weather application that fetches real-time weather details
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (Vanilla JS)**
+- **JavaScript**
 - **Weather API (OpenWeather or any provider used)**
 
 ---
