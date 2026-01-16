@@ -11,11 +11,11 @@ dotenv.config();
 const app = express();
 app.use(cors());
 
-// ---- Fix __dirname for ES modules ----
+// Fix __dirname for ES modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// ---- Backend API ----
+// Backend API
 app.get("/weather", async (req, res) => {
   const city = req.query.city;
 
@@ -37,12 +37,12 @@ app.get("/weather", async (req, res) => {
   }
 });
 
-// ---- Serve Frontend ----
+// Serve Frontend 
 app.use(express.static(path.join(__dirname, "Frontend")));
 
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "Frontend", "index.html"));
 });
 
-// ---- Start Server ----
+//  Start Server 
 app.listen(5000, () => console.log("Server running at http://localhost:5000"));
